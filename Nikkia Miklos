@@ -1,0 +1,32 @@
+# Nikkia Miklos
+# COP2002.0M2
+# 9/11/2023
+# Project 2
+# Program performs basic arithmatic calculations.
+
+first_name = "Nikkia "
+last_name = "Miklos."
+major = "programming and analysis."
+full_name = f"{first_name}{last_name}"
+print("My name is", full_name,"My major is", (major), "I'm most interested in this class because python is an in-demand programming language to know.",)
+
+# Using only two variables to store the numbers 49 and 31
+number1 = 49
+number2 = 31
+
+#Add the two numbers.
+sumResult = number1 + number2
+print(number1, " + ", number2, " = ", sumResult,"\n")
+#Subtract the second number from the first number.
+minusResult = number1 - number2
+print(number1, " - ", number2, " = ", minusResult,"\n",)
+#Multiple the two numbers.
+multiplyResult = number1 * number2
+print(number1, " * ", number2, " = ", multiplyResult,"\n",)
+#Divide the first number by the second.
+divideResult = number1 / number2
+print(number1, " / ", number2, " = ", divideResult,"\n",)
+#Remainder after dividing the first number by the second.
+remainderResult = number1 % number2
+print(number1, " % ", number2, " = ", remainderResult,"\n",)
+print("This is the end of the program!")
